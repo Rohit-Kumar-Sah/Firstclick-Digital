@@ -1,0 +1,38 @@
+.offerings {
+  margin-top: 50px;
+  width: 1249px;
+  margin: 68px auto;
+}
+.offerings h2 {
+  text-align: center;
+}
+.skills {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill {
+  flex: 0 0 33%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 127px;
+}
+
+.skill p {
+  width: 198px;
+  text-align: start;
+  margin-left: 1.3rem;
+  align-items: center;
+}
+.skill:nth-of-type(2n) {
+  justify-content: center;
+}
+.skill:nth-of-type(3n) {
+  justify-content: flex-end;
+}
+.skill .img {
+  width: 96px;
+  height: 96px;
+}

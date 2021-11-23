@@ -1,0 +1,32 @@
+.clients {
+  margin-top: 54px;
+  width: 1249px;
+  margin: 0px auto;
+  margin-bottom: 68px;
+}
+.clients h2 {
+  margin: 20px 0;
+  text-align: center;
+}
+.client {
+  text-align: justify;
+  display: flex;
+}
+.client div {
+  padding: 10px 30px;
+  flex: 1 1 25%;
+}
+
+img {
+  display: block;
+  margin: 10px auto;
+}
+
+.client div p:after,
+.client div p:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url("../../assets/FCD Assets/Assets/google ads/Vector.png");
+  display: inline-block;
+}

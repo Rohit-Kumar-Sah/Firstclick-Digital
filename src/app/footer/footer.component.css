@@ -1,0 +1,49 @@
+.footer {
+  margin: 0px auto;
+  margin-top: 54px;
+  width: 1249px;
+}
+.logo img {
+  max-width: 200px;
+}
+.socials img {
+  max-width: 50px;
+  margin-right: 10px;
+}
+
+.footer,
+.socials {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  padding: 0 3px 5px 0;
+}
+ul {
+  padding: 0px;
+}
+
+.logo,
+.services,
+.Sitemaps,
+.knowus,
+.contacts,
+.socials {
+  flex-basis: 25%;
+}
+
+.services p,
+.Sitemaps p,
+.knowus p,
+.contacts p {
+  font-size: 22px;
+  padding-bottom: 10px;
+  white-space: pre;
+}
+
+.bottomLine {
+  text-align: center;
+  margin-bottom: 10px;
+}

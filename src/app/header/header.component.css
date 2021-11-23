@@ -1,0 +1,38 @@
+.parent {
+  width: 100%;
+  background-color: #20bdff;
+}
+.header {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  max-width: 1440px;
+  margin: 0px auto 0px;
+  background-color: #20bdff;
+  /* margin-top: -20px; */
+}
+.logo img {
+  max-height: 200px;
+}
+.quickLinks {
+  margin-left: auto;
+}
+.quickLinks ul {
+  display: flex;
+  margin: 0px;
+}
+.quickLinks ul li {
+  list-style: none;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.sticky {
+  width: 100%;
+  max-width: 1440px;
+  position: fixed;
+  background-color: #fff;
+  z-index: 10;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: background-color 2s;
+}

@@ -1,0 +1,25 @@
+.whyUs {
+  margin-top: 68px;
+  width: 1249px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.whyUs h2 {
+  text-align: center;
+}
+.reason {
+  display: flex;
+  align-items: center;
+}
+
+.text,
+image {
+  flex: 1 1 50%;
+}
+.text {
+  text-align: center;
+}
+
+img {
+  width: 300px;
+}

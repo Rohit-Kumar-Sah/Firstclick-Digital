@@ -1,0 +1,31 @@
+.processes {
+  width: 1249px;
+  margin: 0px auto;
+}
+.process {
+  display: flex;
+  align-items: center;
+  margin-top: 136px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  flex: 1 1 50%;
+  max-width: 609px;
+  max-height: 288px;
+  background-color: #393e41;
+}
+
+.text {
+  flex: 1 1 50%;
+  margin-left: 32px;
+}
+.text:nth-child(1) {
+  margin-right: 32px;
+  margin-left: 0;
+}
+.title {
+  font-size: 27px;
+  font-weight: bold;
+}

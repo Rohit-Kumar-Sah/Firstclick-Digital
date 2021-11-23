@@ -1,0 +1,31 @@
+.heading {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.content,
+.team {
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  justify-content: space-evenly;
+}
+
+.profile {
+  width: 208px;
+  height: 192px;
+}
+
+.text {
+  margin: 0 0 0 20px;
+}
+
+.teams {
+  margin-top: 54px;
+  width: 1249px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 58px;
+}
