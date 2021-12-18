@@ -12,6 +12,9 @@ import { ClientsComponent } from './clients/clients.component';
 import { TeamComponent } from './team/team.component';
 import { SuperchargeComponent } from './supercharge/supercharge.component';
 import { FooterComponent } from './footer/footer.component';
+import { ServicesComponent } from './services/services.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -24,11 +27,14 @@ import { FooterComponent } from './footer/footer.component';
     ClientsComponent,
     TeamComponent,
     SuperchargeComponent,
-    FooterComponent
+    FooterComponent,
+    ServicesComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

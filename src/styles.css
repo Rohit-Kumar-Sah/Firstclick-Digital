@@ -7,6 +7,11 @@
     width: fit-content;
   }
 }
+@media screen and (max-width: 1249px) {
+  .adpad {
+    padding: 0 30px;
+  }
+}
 
 button {
   border: 0px;

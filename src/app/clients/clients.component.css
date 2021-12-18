@@ -6,6 +6,7 @@
 }
 .clients h2 {
   margin: 20px 0;
+  margin-bottom: 54px;
   text-align: center;
 }
 .client {
@@ -20,6 +21,9 @@
 img {
   display: block;
   margin: 10px auto;
+  width: 194px;
+  height: 66px;
+  object-fit: contain;
 }
 
 .client div p:after,

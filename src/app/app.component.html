@@ -1,4 +1,4 @@
-<div class="app">
+<!-- <div class="app">
     <app-header></app-header>
     <app-hero></app-hero>
     <app-offerings></app-offerings>
@@ -8,5 +8,29 @@
 
     <app-team></app-team>
     <app-supercharge></app-supercharge>
+    <app-footer></app-footer>
+</div> -->
+
+<div class="app">
+    <div class="parent">
+        <div class="header app_width" (scroll)="onWindowScroll($event);">
+            <div class="logo" routerLink="">
+                <img *ngIf="scrolled" src="../../assets/FCD_Assets/logo_assets/png/firct_click_v2-06.png" alt="">
+                <img *ngIf="!scrolled" src="../../assets/FCD_Assets/logo_assets/svg/white_logo.svg" alt="">
+            </div>
+            <div class="quickLinks">
+                <ul>
+                    <li routerLink="services">Services</li>
+                    <li (click)="GotoToService('Reviews')">Reviews</li>
+                    <li (click)="GotoToService('Clients')">Clients</li>
+                    <li (click)="GotoToService('About')">About</li>
+                    <li routerLink="contact_us">Contact Us</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <router-outlet></router-outlet>
     <app-footer></app-footer>
 </div>

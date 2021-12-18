@@ -1,0 +1,31 @@
+<div class="contactUs">
+    <img class="bgImg" src="../../assets/FCD_Assets/Assets/supercharge_background_chart/Chart.svg" alt="">
+    <div class="meat">
+        <h2 class="header">Contact Us</h2>
+        <div class="content">
+            <form #myform="ngForm" (ngSubmit)="Submitted(myform)">
+                <div>
+
+                    <label for="name">Name : </label>
+                    <input type="text" id="name" required name="name" ngModel>
+
+                    <label for="Email">Email : </label>
+                    <input type="email" id="Email" email required name="email" ngModel>
+                </div>
+                <div>
+                    <label for="contact">Contact: </label>
+                    <input type="text" id="contact" required name="contact" ngModel>
+                    <label for="City">City : </label>
+                    <input type="text" id="City" required name="city" ngModel>
+                </div>
+                <div>
+
+                    <label for="Message">Message : </label>
+                    <textarea id="Message" required name="message" ngModel> </textarea>
+                </div>
+
+                <button type="submit" [disabled]="myform.invalid">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>

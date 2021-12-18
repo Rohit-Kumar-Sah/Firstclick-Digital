@@ -1,0 +1,27 @@
+.services {
+  margin-top: 50px;
+  width: 1249px;
+  margin: 68px auto;
+}
+
+.heading,
+.serviceName {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.serviceContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.serviceText,
+.serviceImage {
+  flex: 0 1 40%;
+  text-align: center;
+}
+
+.serviceImage {
+  height: 160px;
+}

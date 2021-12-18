@@ -45,16 +45,16 @@
 }
 
 .graph1 {
-  width: 315px;
-  height: 208px;
+  width: 323px;
+  height: 209px;
   bottom: 10px;
-  left: 10px;
+  left: 1px;
 }
 .graph2 {
-  width: 90px;
+  width: 94px;
   height: 155px;
   bottom: 10px;
-  right: 4px;
+  left: 350px;
 }
 
 .gettingStarted {

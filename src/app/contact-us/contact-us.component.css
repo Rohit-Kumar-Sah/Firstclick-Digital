@@ -1,0 +1,22 @@
+.meat {
+  margin-top: 50px;
+  width: 1249px;
+  margin: 68px auto;
+  text-align: center;
+}
+
+input,
+textarea,
+button {
+  margin: 20px;
+}
+textarea {
+  vertical-align: middle;
+}
+
+form {
+  border: 1px solid black;
+  width: max-content;
+  margin: 30px auto;
+  padding: 30px;
+}
