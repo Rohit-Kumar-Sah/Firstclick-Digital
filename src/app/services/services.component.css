@@ -25,3 +25,7 @@
 .serviceImage {
   height: 160px;
 }
+.foot {
+  position: absolute;
+  bottom: 0;
+}

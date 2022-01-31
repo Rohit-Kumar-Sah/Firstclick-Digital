@@ -20,3 +20,23 @@ form {
   margin: 30px auto;
   padding: 30px;
 }
+
+.contactUs img {
+  max-width: 100%;
+  background-color: #3fb8c4;
+}
+
+.fff div {
+  width: 200px;
+}
+label {
+  width: 300px;
+}
+.fff {
+  display: flex;
+  align-items: center;
+}
+
+.lble {
+  flex: 0 1 20%;
+}

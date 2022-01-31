@@ -13,6 +13,7 @@
 }
 
 .skill {
+  cursor: pointer;
   flex: 0 0 33%;
   text-align: center;
   display: flex;

@@ -30,7 +30,7 @@ export class AppComponent implements OnInit {
   GotoToService(s) {
     if (s == "services")
       window.scrollTo({
-        top: 900,
+        top: 800,
         behavior: 'smooth'
       });
     if (s == "Reviews")

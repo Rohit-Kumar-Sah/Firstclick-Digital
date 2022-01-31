@@ -4,19 +4,37 @@
         <h2 class="header">Contact Us</h2>
         <div class="content">
             <form #myform="ngForm" (ngSubmit)="Submitted(myform)">
-                <div>
-
-                    <label for="name">Name : </label>
-                    <input type="text" id="name" required name="name" ngModel>
-
-                    <label for="Email">Email : </label>
-                    <input type="email" id="Email" email required name="email" ngModel>
+                <div class="fff">
+                    <div class="lble">
+                        <label for="name">Name : </label>
+                    </div>
+                    <div>
+                        <input type="text" id="name" required name="name" ngModel>
+                    </div>
+                    <div class="lble">
+                        <label for="Email">Email : </label>
+                    </div>
+                    <div>
+                        <input type="email" id="Email" email required name="email" ngModel>
+                    </div>
                 </div>
-                <div>
-                    <label for="contact">Contact: </label>
-                    <input type="text" id="contact" required name="contact" ngModel>
-                    <label for="City">City : </label>
-                    <input type="text" id="City" required name="city" ngModel>
+                <div class="fff">
+                    <div class="lble">
+
+                        <label for="contact">Contact: </label>
+                    </div>
+                    <div>
+
+                        <input type="text" id="contact" required name="contact" ngModel>
+                    </div>
+                    <div class="lble">
+
+                        <label for="City">City : </label>
+                    </div>
+                    <div>
+
+                        <input type="text" id="City" required name="city" ngModel>
+                    </div>
                 </div>
                 <div>
 
@@ -27,5 +45,8 @@
                 <button type="submit" [disabled]="myform.invalid">Submit</button>
             </form>
         </div>
+    </div>
+    <div class="foot">
+        <app-footer></app-footer>
     </div>
 </div>

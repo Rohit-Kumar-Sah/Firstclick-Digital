@@ -3,19 +3,6 @@
   padding: 0;
 }
 
-/* @media screen and (max-width: 900px) {
-  .app {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-} */
-
-/* 
-
-Header
-
-*/
-
 .parent {
   width: 100%;
   background-color: #20bdff;
@@ -27,9 +14,10 @@ Header
   max-width: 1440px;
   margin: 0px auto 0px;
   background-color: #20bdff;
-  /* margin-top: -20px; */
 }
+
 .logo img {
+  cursor: pointer;
   max-height: 200px;
 }
 .quickLinks {
@@ -46,7 +34,6 @@ Header
 }
 .sticky {
   top: 0;
-  width: 100%;
   max-width: 1440px;
   position: fixed;
   background-color: #fff;
@@ -55,3 +42,4 @@ Header
   transform: translateX(-50%);
   transition: background-color 2s;
 }
+

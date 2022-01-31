@@ -7,7 +7,7 @@ import { ServicesComponent } from './services/services.component';
 
 const routes: Routes = [
   { path: '', component: HeaderComponent },
-  { path: 'services', component: ServicesComponent },
+  { path: 'services/:servicename', component: ServicesComponent },
   { path: 'contact_us', component: ContactUsComponent },
   { path: '**', component: HeaderComponent }
 ];
