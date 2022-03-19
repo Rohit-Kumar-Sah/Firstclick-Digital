@@ -80,3 +80,9 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+@media screen and (max-width: 1440px) {
+  .mainLand {
+    height: 120vh;
+  }
+}
